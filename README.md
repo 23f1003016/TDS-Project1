@@ -25,19 +25,6 @@ For analysis, I utilized **Google Colab** with the following Python libraries:
 - **NumPy**: For numerical operations.
 - **Matplotlib** and **Seaborn**: For data visualization.
 
-I loaded the CSV files and performed operations such as filtering and aggregating data:
-
-```python
-import pandas as pd
-
-# Load data
-users_df = pd.read_csv('users.csv')
-repos_df = pd.read_csv('repositories.csv')
-
-# Analyze top users by followers
-top_users = users_df.nlargest(5, 'followers')
-```
-
 Key questions addressed user engagement, repository statistics, and language patterns, yielding valuable insights.
 
 ## Key Findings
@@ -58,4 +45,3 @@ Developers should:
 ## Conclusion
 
 This analysis provides insights into the Boston GitHub community, offering trends and recommendations for developers to optimize their profiles and enhance collaboration.
-```
