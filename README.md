@@ -1,7 +1,7 @@
 # GitHub Users Analysis in Boston
 
 - This project analyzes GitHub users from Boston with over 100 followers, utilizing data scraped from the GitHub API using JavaScript and Axios.
-- A surprising discovery was that most users are affiliated with Northeastern University, showcasing the academic influence in the local tech community.
+- What I discovered was that most users are affiliated with Northeastern University, showcasing the academic influence in the local tech community.
 - Developers should enhance their profiles with detailed bios, as longer bios correlate with higher follower counts.
 
 ## Process of Analysis
@@ -26,6 +26,7 @@ For analysis, I utilized **Google Colab** with the following Python libraries:
 - **Matplotlib** and **Seaborn**: For data visualization.
 
 Key questions addressed user engagement, repository statistics, and language patterns, yielding valuable insights.
+Notebook is added to this repository - TDS_Project1.ipynb
 
 ## Key Findings
 
